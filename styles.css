@@ -1,0 +1,172 @@
+/*
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+*/
+/*  header ;*/
+body
+{
+  background-color:gray;
+/*   padding:0px; */
+}
+header
+{
+  background-color:limegreen;
+  border: 1px solid limegreen;
+  width:100%;
+}
+header h1
+{
+  text-align:center;
+}
+
+/*  nav  */
+nav
+{
+  margin-left:1%;
+  margin-right:1%;
+  min-width:680px;
+  height:30px;
+  padding-top:10px;
+  text-align:center;
+  margin-bottom:10px;
+  background-color:lime;
+}
+/*    section     */
+.section
+{
+  width:100%;
+/*   padding:5px; */
+  margin-top:20px;
+  background-color:limegreen;
+  height:300px;
+  white-space: nowrap;
+}
+
+/*    footer      */
+.footer
+{
+  display:block;
+  margin-top:20px;
+  background-color:limegreen;
+  height:50px;
+  padding:10px;
+
+}
+
+/*    menu        */
+.top-menu-item
+{
+  text-align:center;
+  display:inline-block;
+  /*background-color:blueviolet;*/
+  width:18%;
+  min-width: 120px;
+  height:20px;
+  margin-left:10px;
+  font-size:18px;
+}
+
+.content-window
+{
+  display:inline-block;
+  width:78%;
+  margin:1%;
+  Padding:5px;
+  background-color:lime;
+  height:90%;
+  
+  vertical-align:top;
+  white-space: normal;
+}
+.content-window h2
+{
+  text-align:center;
+}
+
+.side-bar
+{
+  text-align:center;
+  display:inline-block;
+  width:18%;
+  margin:1%;
+  margin-left:-0.5%; 
+/*   margin-left:-1%;  */
+  height:90%;
+  padding:5px;
+  background-color:lime;
+  white-space: normal;
+  position:relative;
+/*   white-space: normal; */
+/*   vertical-align:top; */
+ 
+  /*    
+ https://habrahabr.ru/company/netcracker/blog/277433/
+  */
+  
+}
+.side-bar h2
+{
+  text-align:center; 
+}
+
+.side-bar img:hover
+{
+  border:2px solid blue;
+  margin:-2px;
+}
+
+.top-menu-item-drop
+{
+	background-color:lime;
+	display:none;
+	border:2px solid limegreen;
+	z-index:123;
+}
+
+.top-menu-item-drop ul
+{
+	list-style:none;
+	margin:5px;
+	margin-left:-20px;
+}
+.top-menu-item-drop ul li
+{
+	margin:0px;
+}
+
+.top-menu-item-drop ul li a:hover
+{
+	color:red;
+}
+
+.top-menu-item-drop ul li a
+{
+	text-decoration:none;
+}
+
+.top-menu-item:hover .top-menu-item-drop
+{
+	display:inline-block;
+	position:absolute;
+	margin:0px;
+	margin-top:20px;
+	margin-left:-50px;
+	padding:0px;
+}
+
+.side-bar a
+{
+	text-decoration:none;
+}
+
